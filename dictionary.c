@@ -19,7 +19,7 @@ void printList(Node * head) {
     }
 }
 
-
+//add new word to the end of the list
 void addWord(Node * head, char * word) {
     Node * current = head;
     while (current->next != NULL) {
